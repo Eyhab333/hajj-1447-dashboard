@@ -148,21 +148,21 @@ export default function App() {
                   الإعاشة، وبعض الجوانب اللوجستية.
                 </p>
 
-                <div className="mt-6 grid grid-cols-2 gap-3">
+                <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
                   <div className="rounded-2xl bg-emerald-400/10 p-4">
-                    <p className="text-3xl font-black green-gradient-text">
+                    <p className="text-4xl font-black leading-none green-gradient-text sm:text-3xl">
                       99.4%
                     </p>
-                    <p className="mt-1 text-sm text-slate-300">
+                    <p className="mt-2 text-sm text-slate-300">
                       رضا أداء المشرفين
                     </p>
                   </div>
 
                   <div className="rounded-2xl bg-amber-400/10 p-4">
-                    <p className="text-3xl font-black gold-gradient-text">
+                    <p className="text-4xl font-black leading-none gold-gradient-text sm:text-3xl">
                       29.8%
                     </p>
-                    <p className="mt-1 text-sm text-slate-300">
+                    <p className="mt-2 text-sm text-slate-300">
                       أكبر فجوة تحسين
                     </p>
                   </div>

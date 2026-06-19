@@ -121,6 +121,30 @@ export function WorkSystemChart() {
         },
       },
     ],
+
+    media: [
+      {
+        query: {
+          maxWidth: 520,
+        },
+        option: {
+          grid: {
+            bottom: 10,
+          },
+          xAxis: {
+            axisLabel: {
+              show: false,
+            },
+            splitLine: {
+              show: false,
+            },
+          },
+        },
+      },
+    ],
+
+
+
   };
 
   return (
