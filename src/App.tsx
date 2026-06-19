@@ -189,7 +189,7 @@ export default function App() {
                     </div>
 
                     <span className="rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-slate-400">
-                      KPI
+                      مؤشر
                     </span>
                   </div>
 
