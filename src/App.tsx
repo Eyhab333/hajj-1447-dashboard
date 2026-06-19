@@ -232,13 +232,6 @@ export default function App() {
 
 
 
-
-
-
-
-
-
-
           <SupervisorPerformanceSection />
 
           <RecommendationsSection />
@@ -247,8 +240,8 @@ export default function App() {
         </div>
       </section>
 
+      {/* <BackToTopButton /> */}
       <BackToTopButton />
-
     </main>
   );
 }

@@ -1,6 +1,6 @@
 const navItems = [
   { href: "#kpis", label: "المؤشرات" },
-  { href: "#charts", label: "الرسومات" },
+  { href: "#charts", label: "التحليلات" },
   { href: "#supervisors", label: "المشرفون" },
   { href: "#recommendations", label: "التوصيات" },
 ];
