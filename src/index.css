@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Tajawal", system-ui, sans-serif;
+  color: #f8fafc;
+  background: #050816;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at top right, rgba(34, 197, 94, 0.18), transparent 30%),
+    radial-gradient(circle at top left, rgba(245, 158, 11, 0.14), transparent 28%),
+    linear-gradient(135deg, #050816 0%, #08111f 45%, #020617 100%);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.35);
+  color: #fff;
+}
+
+.glass-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(15, 23, 42, 0.62);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(18px);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fde68a, #f59e0b, #d97706);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.green-gradient-text {
+  background: linear-gradient(135deg, #bbf7d0, #22c55e, #16a34a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+@media (max-width: 640px) {
+  .glass-card {
+    backdrop-filter: blur(14px);
+  }
+}
+
+.reveal,
+.reveal-item {
+  will-change: transform, opacity;
+}
+
+
+.chart-shell,
+.chart-shell>div,
+.chart-shell canvas {
+  max-width: 100% !important;
+}
+
+@media (max-width: 640px) {
+  #charts {
+    width: 100%;
+    max-width: 100%;
+  }
+}
